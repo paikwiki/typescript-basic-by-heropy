@@ -205,7 +205,7 @@ let voi: void = null;
 // ...
 ```
 
-"`strictNullChecks: true`"를 통해 엄격하게 Null과 Undefined 서로의 타입끼리 할당할 수 없게 할 수 있다. 단, `void`에는 `undefined` 할당이 가능하다.
+`"strictNullChecks": true`를 통해 엄격하게 Null과 Undefined 서로의 타입끼리 할당할 수 없게 할 수 있다. 단, `void`에는 `undefined` 할당이 가능하다.
 
 ## 타입 선언4
 
@@ -337,7 +337,7 @@ function someFunc(val: string | number) {
 
 `typeof`, `in`, `instanceof` 연산자를 직접 사용하는 타입 가드도 있으나, 비교적 단순한 로직에서 추천되는 방식이다.
 
-> `typeof` 연산자는 `number`, `string`, `boolean`,`simbol`만 타입 가드로 인식할 수 있으며, `in` 연산자의 우변 객체(`val`)는 `any` 타입이어야 한다.
+> `typeof` 연산자는 `number`, `string`, `boolean`,`symbol`만 타입 가드로 인식할 수 있으며, `in` 연산자의 우변 객체(`val`)는 `any` 타입이어야 한다.
 
 ```ts
 // 기존 예제와 같이 `isNumber`를 제공(추상화)하지 않아도 `typeof` 연산자를 직접 사용하면 타입 가드로 동작합니다.

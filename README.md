@@ -1,6 +1,6 @@
 # Heropy 님의 "[한 눈에 보는 타입스크립트](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/)" 강의(@Goorm Edu)
 
-[Heropy](https://heropy.blog/) 님의 "[한 눈에 보는 타입스크립트](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/)" 강의(@Goorm Edu)를 정리한 노트입니다. 강사의 블로그에 [이 강의 전체를 정리해둔 포스팅](https://heropy.blog/2020/01/27/typescript/)이 있습니다. 강의의 내용과 비교 했을 때, 이 포스트에는 업데이트된 내용이 있습니다. 포스팅에 추가된 내용도 함께 학습하며 요약 노트에 적었습니다.
+[Heropy](https://heropy.blog/) 님의 "[한 눈에 보는 타입스크립트](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/)" 강의(@Goorm Edu)를 정리한 노트입니다. 강사의 블로그에 [이 강의 전체를 정리해둔 포스팅](https://heropy.blog/2020/01/27/typescript/)이 있습니다. 이 포스트에는 일부 업데이트된 내용이 있습니다. 필요한 경우, Heropy 님의 블로그 포스트에 추가된 내용도 함께 학습하며 요약 노트에 적었습니다.
 
 ## 안내
 
@@ -19,7 +19,7 @@
 
 ## 동영상 강의 링크와 요약 노트
 
-이 강의는 텍스트로 구성된 강의로, 각 챕터마다 강의 텍스트 문서의 수가 다릅니다. 강의 링크는 각 챕터의 첫번 째 강의 텍스트 문서의 링크이며, 제목 뒤에 "(1/{전체 문서 수})" 형태로 각 챕터별 텍스트 문서의 개수를 표기했습니다.
+이 강의는 텍스트로 구성된 강의로, 각 챕터마다 강의 텍스트 문서의 수가 다릅니다. 강의 링크는 각 챕터의 첫 번째 강의 텍스트 문서의 링크이며, 제목 뒤에 "(1/{전체 문서 수})" 형태로 각 챕터별 텍스트 문서의 개수를 표기했습니다.
 
 | 연번 | 강의 링크                          | 노트        | 학습일        |
 | -: | --------------------------------- | ----------- | ----------- |
@@ -35,7 +35,7 @@
 | 10 | [Optional](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lesson/1042580/%EB%A7%A4%EA%B0%9C-%EB%B3%80%EC%88%98-parameters)(1/4) | [:memo: note](./notes/chapter10.md) | 2021.07.22. |
 | 11 | [모듈](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lesson/1042584/%EB%82%B4%EB%B3%B4%EB%82%B4%EA%B8%B0-export-%EC%99%80-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-import)(1/3) | [:memo: note](./notes/chapter11.md) | 2021.07.22. |
 | 12 | [TS 유틸리티 타입](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lesson/1042587/ts-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-%ED%83%80%EC%9E%85%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC)(1/17) | [:memo: note](./notes/chapter12.md) | 2021.07.23. |
-| 13 | [참고 자료 (References)](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lesson/1042604/%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C)(1/1) | - | 2021.07.23 |
+| 13 | [참고 자료 (References)](https://edu.goorm.io/learn/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/lesson/1042604/%EC%B0%B8%EA%B3%A0-%EC%9E%90%EB%A3%8C)(1/1) | - | 2021.07.23. |
 
 ## 저작권 안내
 
